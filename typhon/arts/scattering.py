@@ -13,6 +13,7 @@ import numpy as np
 
 __all__ = ['SingleScatteringData',
            'ScatteringMetaData',
+           'SpectralSingleScatteringData'
            ]
 
 PARTICLE_TYPE_GENERAL = 10

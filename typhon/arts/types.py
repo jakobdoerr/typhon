@@ -11,6 +11,7 @@ from .griddedfield import (GriddedField1,
                            )
 from .covariancematrix import (CovarianceMatrix)
 from .scattering import (SingleScatteringData,
+                         SpectralSingleScatteringData,
                          ScatteringMetaData,
                         )
 from .retrieval import (RetrievalQuantity)
@@ -57,6 +58,7 @@ classes = {
     'RetrievalQuantity': RetrievalQuantity,
     'ScatteringMetaData': ScatteringMetaData,
     'SingleScatteringData': SingleScatteringData,
+    'SpectralSingleScatteringData': SpectralSingleScatteringData,
     'Sparse': Sparse,
     'SpeciesAuxData': SpeciesAuxData,
     'SpeciesTag': SpeciesTag,
